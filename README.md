@@ -34,15 +34,15 @@ O design foi criado para ser limpo e responsivo, utilizando boas práticas de HT
 
 ## Como Visualizar
 
-Para visualizar o projeto, basta clonar o repositório e abrir os arquivos HTML em um navegador web:
+Para visualizar o projeto, basta clicar aqui [My_Portifólio_Alura](https://my-portifolio-alura.vercel.app/)
 
-
-git clone https://github.com/https://github.com/MarceloRodrigues1853/My_Portifolio_Alura.git
+### Se quiser copiar o projeto
+git clone ``https://github.com/https://github.com/MarceloRodrigues1853/My_Portifolio_Alura.git``
 cd seu-projeto-portfolio
 Abra os arquivos index.html, curriculo.html e about.html em seu navegador favorito.
 
 ## 👤 Autor
- (Marcelo Rodigues)[https://github.com/https://github.com/MarceloRodrigues1853]
+ [Marcelo Rodigues](https://github.com/https://github.com/MarceloRodrigues1853)
 
 Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
