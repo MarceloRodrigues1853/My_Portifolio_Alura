@@ -30,19 +30,19 @@ O repositório inclui os seguintes arquivos e diretórios:
 
 ## Estilo e Design
 
-O design foi criado para ser limpo e responsivo, utilizando boas práticas de HTML e CSS. A estilização é feita principalmente no arquivo `curriculo.css` dentro do diretório `style/`.
+O design foi criado para ser limpo e responsivo, utilizando boas práticas de HTML e CSS. A estilização é feita principalmente no arquivo `style.css` dentro do diretório `style/`.
 
 ## Como Visualizar
 
 Para visualizar o projeto, basta clonar o repositório e abrir os arquivos HTML em um navegador web:
 
-```bash
-git clone https://github.com/seu-usuario/seu-projeto-portfolio.git
+
+git clone https://github.com/https://github.com/MarceloRodrigues1853/My_Portifolio_Alura.git
 cd seu-projeto-portfolio
 Abra os arquivos index.html, curriculo.html e about.html em seu navegador favorito.
 
-Autor
-👤 Marcelo Rodigues
+## 👤 Autor
+ (Marcelo Rodigues)[https://github.com/https://github.com/MarceloRodrigues1853]
 
 Licença
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
