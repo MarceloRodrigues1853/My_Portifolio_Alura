@@ -163,19 +163,31 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 6%;
+        padding: 5%;
+        text-align: center;
     }
 
     .cabecalho__menu {
-        justify-content: center;
+        gap: 16px;
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
 
     .apresentacao__conteudo {
         width: auto;
     }
+
+    .apresentacao__links__navegacao__curriculo:hover {
+    background-color: var(--cor-hover);
+    padding: 1%;
+    transition: 1.s;
+    }
+
+    .apresentacao__links__lista p {
+    margin: 1% 0;
+    }
+
 }
