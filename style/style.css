@@ -127,13 +127,11 @@ h2 {
 .rodape a {
     text-decoration: none;
     color: var(--cor-hover);
-    margin-top: 8px; /* Adiciona um espaçamento superior ao link */
 }
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 5%;
-        text-align: center;
+        padding: 10%;
     }
 
     .cabecalho__menu {
@@ -148,14 +146,12 @@ h2 {
     .apresentacao__conteudo {
         width: auto;
     }
-
+    
     .apresentacao__conteudo__titulo {
         text-align: center;
     }
-
-    .apresentacao__conteudo__texto {
-        text-align: justify;
-    }
+    
+    
 
     .apresentacao__links {
         align-items: center;
@@ -168,17 +164,11 @@ h2 {
     }
 
     .rodape {
-        width: auto;
+        width: 100%;
         padding: 8%;
     }
-
-    .rodape p {
+    
+    .rodape p, a {
         margin-bottom: 8px;
-    }
-
-    .rodape a {
-        text-decoration: none;
-        color: var(--cor-hover);
-        margin-top: 8px; /* Adiciona um espaçamento superior ao link */
     }
 }
