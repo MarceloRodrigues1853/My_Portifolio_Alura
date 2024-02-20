@@ -90,8 +90,8 @@ body {
 }
 
 .apresentacao__links__lista {
-  list-style: none; /* Remova as bolinhas da lista */
-  padding: 0; /* Remova o preenchimento padrão da lista */
+  list-style: none; 
+  padding: 0; 
   margin-bottom: 5%;
 }
 
@@ -153,6 +153,7 @@ body {
 }
 
 .rodape p {
+    font-size: 1rem;
     margin-bottom: 12px;
 }
 
@@ -172,7 +173,8 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column;
+        font-size: 1.5rem;
+        flex-direction: column-reverse;
         padding: 5%;
     }
 
@@ -180,14 +182,41 @@ body {
         width: auto;
     }
 
-    .apresentacao__links__navegacao__curriculo:hover {
-    background-color: var(--cor-hover);
-    padding: 1%;
-    transition: 1.s;
+    .apresentacao__conteudo__titulo {
+        text-align: center;
     }
 
-    .apresentacao__links__lista p {
-    margin: 1% 0;
+    .apresentacao__conteudo__texto {
+        text-align: justify;
     }
 
+    .apresentacao__links {
+        align-items: center;
+    }
+
+    .apresentacao__links__navegacao,
+    .apresentacao__links__navegacao__curriculo {
+        width: 100%;
+        margin: 3% 0;
+        
+    }
+
+    .apresentacao__links__lista {
+        margin: 3% 0;
+    }
+
+    .rodape {
+        width: 100;
+        padding: 8%;
+    }
+
+    .rodape p {
+        margin-bottom: 8px;
+    }
+
+    .rodape a {
+        text-decoration: none;
+        color: var(--cor-hover);
+        margin-top: 8px; /* Adiciona um espaçamento superior ao link */
+    }
 }

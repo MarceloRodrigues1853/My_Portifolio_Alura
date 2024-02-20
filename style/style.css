@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 
-h1 {
+h2 {
     color: var(--cor-terciaria);
 }
 .apresentacao {
@@ -127,6 +127,7 @@ h1 {
 .rodape a {
     text-decoration: none;
     color: var(--cor-hover);
+    margin-top: 8px; /* Adiciona um espaçamento superior ao link */
 }
 
 @media (max-width: 1200px) {
@@ -148,9 +149,36 @@ h1 {
         width: auto;
     }
 
-    .apresentacao__links__navegacao__curriculo:hover {
-        background-color: var(--cor-hover);
-        padding: 1%;
-        transition: 1s;
+    .apresentacao__conteudo__titulo {
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__texto {
+        text-align: justify;
+    }
+
+    .apresentacao__links {
+        align-items: center;
+    }
+
+    .apresentacao__links__navegacao,
+    .apresentacao__links__navegacao__curriculo {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .rodape {
+        width: auto;
+        padding: 8%;
+    }
+
+    .rodape p {
+        margin-bottom: 8px;
+    }
+
+    .rodape a {
+        text-decoration: none;
+        color: var(--cor-hover);
+        margin-top: 8px; /* Adiciona um espaçamento superior ao link */
     }
 }
