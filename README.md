@@ -1,4 +1,4 @@
-# Portfólio - Projeto de Trilha HTML e CSS da Alura
+# Portfólio - Projeto da Trilha HTML e CSS da Alura
 
 Bem-vindo ao meu projeto de Portfólio! Este repositório foi criado para armazenar e compartilhar informações sobre minha trajetória na trilha de HTML e CSS da Alura.
 
@@ -37,7 +37,9 @@ O design foi criado para ser limpo e responsivo, utilizando boas práticas de HT
 Para visualizar o projeto, basta clicar aqui [My_Portifólio_Alura](https://my-portifolio-alura.vercel.app/)
 
 ### Se quiser copiar o projeto
+
 git clone ``https://github.com/https://github.com/MarceloRodrigues1853/My_Portifolio_Alura.git``
+
 cd seu-projeto-portfolio
 Abra os arquivos index.html, curriculo.html e about.html em seu navegador favorito.
 
